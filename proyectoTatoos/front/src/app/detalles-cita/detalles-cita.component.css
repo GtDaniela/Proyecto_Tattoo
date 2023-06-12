@@ -1,0 +1,48 @@
+.contenedor2{
+  padding-top: 5%;
+    width: inherit;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+  }
+  .contenedor2 h3{
+    width: 100%;
+  }
+  .card{
+    width: 450px;
+    height: auto;
+    background-color:transparent;
+    border-radius: 10px;
+    border:0%;
+    padding: 5%;
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.3);
+    color:rgb(188, 185, 185);
+    opacity: 80%;
+  }
+  .imagen{
+    width: 200px;
+    border-radius: 5px;
+    margin:10px;
+    margin-left: 10px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+  span{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  h3{
+    color: rgb(202, 54, 54);
+  }
+
+
+  .boton{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+}

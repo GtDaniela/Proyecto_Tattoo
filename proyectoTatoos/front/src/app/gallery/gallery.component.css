@@ -1,0 +1,44 @@
+.card{
+  width: 150px;
+  height: auto;
+  background-color:transparent;
+  border: 0;
+  margin: 12px;
+}
+.contenedor2{
+  width: inherit;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .imagen{
+  width: 150px;
+  height: 190px;
+  border-radius: 5px;
+  margin:5px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  transition: transform 0.3s;
+}
+.imagen:hover{
+  z-index: 1;
+  transform: scale(1.2);
+}
+.contenedor
+{
+  width: 50%;
+  margin:auto;
+  display: flex;
+}
+
+.contenedor button{
+  margin: 5px;
+}
+.tamano button.active {
+  background-color:#cf9c05; /* Cambia este valor al color deseado */
+}
+.tamano{
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+}

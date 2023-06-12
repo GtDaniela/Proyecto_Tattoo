@@ -1,0 +1,45 @@
+
+.contenedor2{
+  width: inherit;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 450px;
+  height: auto;
+  background-color:transparent;
+  border: 0;
+  border-radius: 5px;
+  margin: 12px;
+}
+.card .imagen{
+  width: 435px;
+  height: 500px;
+  border-radius: 8px;
+  margin:5px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card h3{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(198, 185, 185, 0.4);
+  text-align: center;
+  width: 100%;
+}
+
+.contenedor2 button{
+  margin: 5px;
+  width: 70%;
+}
+.card-body{
+  box-shadow: 0 0 20px rgba(255, 254, 254, 0.4);
+  color: rgb(255, 255, 255);
+  width: 70%;
+  text-align: center;
+}
+.detalle
+{
+  align-items: center;
+}

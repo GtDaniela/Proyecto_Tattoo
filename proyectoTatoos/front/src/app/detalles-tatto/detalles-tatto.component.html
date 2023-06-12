@@ -1,0 +1,27 @@
+
+    <div class="contenedor2">
+      <div class="card" >
+          <h3>{{tattoN.nombre}}</h3>
+          <img class="imagen" [src]="imagen" >
+      </div>
+      <div class="card detalle">
+        <div class="card-body">
+        <p>
+          <b> Artista:</b>{{tattoN.artista.nombre}}
+          <br>
+          <b> Descripción:</b> {{tattoN.descripcion}}
+          <br>
+          <b> Parte del cuerpo: </b>{{tattoN.lugar}}
+          <br>
+          <b> Tamaño: </b>{{tattoN.tamano}}
+          <br>
+          <b> Precio: </b>{{tattoN.precio}}€
+          <br>
+        </p>
+        </div>
+        <button  class="btn btn-warning" (click)="regresar()">Volver a galeria completa</button>
+       <!--boton para pedir cita-->
+        <button class="btn btn-warning" [routerLink]="['/cita_tattoo_detalle',tattoN.idTattoo]">¡Quiero pedir cita para este tatto!</button>
+    </div>
+    </div>
+
